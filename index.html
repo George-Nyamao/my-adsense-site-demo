@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Static Site</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+    IMPORTANT: Replace 'ca-pub-YOUR_ADSENSE_PUBLISHER_ID' with YOUR actual AdSense Publisher ID.
+    You get this script from your AdSense account under "Ads" > "Overview" > "Get code".
+    This is the main AdSense script that needs to be on every page where you want to show ads.
+    -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1347372785221208"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Site!</h1>
+        <p>Exploring static sites, GitHub Pages, and AdSense.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Blog</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>My First Blog Post</h2>
+            <p>This is some interesting content about my journey with static sites.
+               I'm learning how to deploy them on GitHub Pages and even monetize them
+               with Google AdSense. It's quite a fascinating process!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+
+        <!--
+        AD UNIT EXAMPLE 1: Display Ad
+        Replace 'ca-pub-YOUR_ADSENSE_PUBLISHER_ID' with YOUR Publisher ID
+        Replace 'YOUR_AD_SLOT_ID_1' with the Ad unit ID you create in AdSense.
+        You create ad units in AdSense under "Ads" > "By ad unit".
+        -->
+        <div class="ad-container">
+            <p>Advertisement</p>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_PUBLISHER_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID_1"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <article>
+            <h2>Another Interesting Topic</h2>
+            <p>More content here. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </article>
+
+        <!--
+        AD UNIT EXAMPLE 2: Another Display Ad (optional, different slot or same if desired)
+        Replace 'ca-pub-YOUR_ADSENSE_PUBLISHER_ID' with YOUR Publisher ID
+        Replace 'YOUR_AD_SLOT_ID_2' with another Ad unit ID.
+        -->
+        <div class="ad-container">
+            <p>Advertisement</p>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_PUBLISHER_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID_2"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 My Awesome Static Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
